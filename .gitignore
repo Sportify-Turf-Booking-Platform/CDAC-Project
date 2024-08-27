@@ -1,0 +1,6 @@
+cpp/
+Documents/
+*.pdf
+*txt
+/CPP_Assignments/*.exe
+/Preperatory_Assignments/*.exe
