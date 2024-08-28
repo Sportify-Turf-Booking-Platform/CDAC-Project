@@ -15,7 +15,6 @@ int main()
 
     for (len = 0; ch[len] != '\0'; len++)
         ;
-
     for (int i = 0; i < len / 2; i++)
     {
         if (ch[i] != ch[len - i - 1])

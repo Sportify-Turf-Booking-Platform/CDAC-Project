@@ -1,8 +1,6 @@
 cpp/
 Documents/
+.vscode/
 *.pdf
 *txt
-/CPP_Assignments/.vscode/
-/CPP_Assignments/a.exe
-/Preperatory_Assignments/a.exe
-/Preperatory_Assignments/.vscode/
+*.exe
