@@ -21,7 +21,7 @@ private:
     double height;
 
 public:
-    // constructors
+    // Constructors
     Cylinder() : radius(0), height(0) {}
     Cylinder(double radius, double height) : radius(radius), height(height) {};
 
@@ -39,12 +39,14 @@ public:
     double getRadius() const { return radius; }
     double getHeight() const { return height; }
 
+    // Calculate Volume
     double calculateVolume()
     {
         return (PI * radius * radius * height);
     }
 };
 
+// Static variable initialization (Constant)
 const double Cylinder::PI = 3.14;
 
 int main()
@@ -54,6 +56,7 @@ int main()
     cin >> radius >> height;
     Cylinder ptr(radius, height);
 
+    // Print Results
     cout << "\nVolume of cylinder : " << ptr.calculateVolume() << endl;
 
     return 0;
